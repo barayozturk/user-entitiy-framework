@@ -21,7 +21,7 @@ namespace WebApplicationTest.Models
     }
 }
 ```
-##Project Structure 🏗️
+## Project Structure 🏗️
 The project's file structure is as follows:
 
 - Controllers/     # API controller codes
@@ -32,7 +32,7 @@ The project's file structure is as follows:
 - Startup.cs       # Application configuration settings
 
 
-##Entity Framework Migrations 🔄
+## Entity Framework Migrations 🔄
 Entity Framework migrations are used to update the database. Steps to create migrations:
 
 Open the terminal and navigate to the project folder.
@@ -44,7 +44,7 @@ dotnet ef migrations add InitialCreate
 dotnet ef database update
 ````
 
-##Swagger Documentation 📖
+## Swagger Documentation 📖
 Swagger/OpenAPI is used to automatically generate and visualize API documentation.
 
 Swagger documentation steps:
@@ -61,7 +61,7 @@ app.UseSwaggerUI();
 We created a controller to handle API requests. For instance, 
 
 
-##Running the Application ▶️
+## Running the Application ▶️
 To run the application:
 
 Open the terminal and navigate to the project folder.
@@ -70,5 +70,5 @@ In your browser, visit https://localhost:5001/swagger to view Swagger documentat
 
 
 
-##Conclusion 🎉
+## Conclusion 🎉
 This project is a great resource to learn about creating a .NET Web API, managing database models, applying migrations, creating API controllers, and documenting the API using Swagger. This README file will help you understand the project step by step! 🚀
